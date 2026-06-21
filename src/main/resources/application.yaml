@@ -4,6 +4,8 @@ spring:
     name: rate-limiter-lab
   profiles:
     active: local
+  jpa:
+    open-in-view: false
 
 rate-limiter:
   max-attempts: 5
